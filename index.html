@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate management system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="buttons">
+        <button id="addEmployees">Add Employees</button>
+        <button id="addDepartments">Add Departments</button>
+        <button id="addProject">Add Project</button>
+        
+        <a href="employees.html">
+            <button id="displayEmployees">Display Employees</button>
+        </a>
+        <a href="departments.html">
+            <button id="displayDepartments">Display Departments</button>
+        </a>
+        <a href="projects.html">
+            <button id="displayProjects">Display Projects</button>
+        </a>
+    
+        <button id="updateEmployee">Update Employees</button>
+        <button id="updateDepartment">Update Department</button>
+        <button id="updateProject">Update Project</button>
+    
+        <button id="deleteEmployee">Delete Employee</button>
+        <button id="deleteDepartment">Delete Department</button>
+        <button id="deleteProject">Delete Project</button>
+    
+        <button id="searchEmployee">Search Employee</button>
+        <button id="searchDepartment">Search Department</button>
+        <button id="searchProject">Search Project</button>
+    </div>
+
+    <div class="bestEmployeeDiv">
+        <h3>Best Employee: </h3>
+        <p id="bestEmployee"></p>
+    </div>
+
+    <div class="codingSkills">
+        <h3>Employees with coding skills: </h3>
+        <table border="1">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Performance Rate</th>
+                <th>Age</th>
+                <th>Data Of Birth</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>Status</th>
+            </thead>
+    
+            <tbody id="employeesWithCodingSkills">
+    
+            </tbody>
+        </table>
+    </div>
+
+    
+    <div class="maleEmployeesDiv">
+        <h3>Male Employees: </h3>
+        <table border="1">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Performance Rate</th>
+                <th>Age</th>
+                <th>Data Of Birth</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>Status</th>
+            </thead>
+    
+            <tbody id="maleEmployees">
+    
+            </tbody>
+        </table>
+    </div>
+
+    
+    <div class="avgSalaryDiv">
+        <h3>Employees with salary higher than the avg: </h3>
+        <table border="1">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Performance Rate</th>
+                <th>Age</th>
+                <th>Data Of Birth</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>Status</th>
+            </thead>
+    
+            <tbody id="avgSalary">
+    
+            </tbody>
+        </table>
+    </div>
+
+    
+    <div class="inactiveStatusDiv">
+        <h3>Employees with inactive status: </h3>
+        <table border="1">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Performance Rate</th>
+                <th>Age</th>
+                <th>Data Of Birth</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>Status</th>
+            </thead>
+    
+            <tbody id="inactiveStatus">
+    
+            </tbody>
+        </table>
+    </div>
+
+    <div class="projectWithMinHrsDiv">
+        <h3>Project with min hours: </h3>
+        <p id="projectWithMinHrs"></p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

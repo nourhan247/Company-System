@@ -1,0 +1,74 @@
+/* a{
+    text-decoration: none;
+}
+
+.buttons{
+    margin-bottom: 50px;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+td, th{
+    padding: 5px;
+} */
+
+
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for buttons */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Best Employee Section */
+.bestEmployeeDiv {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.bestEmployeeDiv h3 {
+    margin-bottom: 10px;
+}
+
+/* Employ
